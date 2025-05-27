@@ -55,8 +55,8 @@ function TaskCard({ task }) {
         </select>
         <input
           type="text"
-          placeholder="Team member/members"
-          className="focus:ring-opacity-20 cursor-pointer rounded-lg border-none px-2 py-2 text-right text-xl font-semibold focus:ring-2 focus:ring-slate-300 focus:outline-none"
+          placeholder="Team members"
+          className="focus:ring-opacity-20 w-[60%] cursor-pointer rounded-lg border-none px-2 py-2 text-right text-xl font-semibold focus:ring-2 focus:ring-slate-300 focus:outline-none"
           defaultValue={task.teamMembers}
           onKeyDown={handleAddMembers}
           ref={teamInput}

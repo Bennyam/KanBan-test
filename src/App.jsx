@@ -21,7 +21,7 @@ function App() {
         </div>
       </main>
       <footer className="border-t-2 border-stone-300 px-3 py-4 text-center text-stone-100">
-        Copyright &copy; Ben Ameryckx
+        Copyright &copy; Ben Ameryckx. All rights reserved.
       </footer>
     </div>
   );

@@ -13,7 +13,7 @@ function App() {
         <Header />
         <AddTask />
       </div>
-      <main className="no-scrollbar overflow-y-scroll">
+      <main className="no-scrollbar overflow-scroll">
         <div className="grid h-[100%] grid-cols-4 divide-x-2 divide-stone-400">
           {statusses.map((status) => (
             <Columns status={status} tasks={tasks} key={status} />
